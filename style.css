@@ -1,11 +1,34 @@
 body, html {
     height: 100%;
   }
-  
-  .background {
-    background-image: url("projectLogo.png");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+ /* Container holding the image and the text */
+.container {
+  position: relative;
+  top:20%;
+  text-align: center;
+  color: white;
+}
+  .centered {
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
+  .button_1{
+    height:38px;
+    background:#6eadb2;
+    border:0;
+    padding-left: 20px;
+    padding-right:20px;
+    color:#ffffff;
+    border-radius:4px;
+}
+.logo img {
+  width     : 100%;
+  max-width : 300px;
+  
+}
+#wrapper{
+  margin: 0 auto;
+  width: 1024px;
+}
