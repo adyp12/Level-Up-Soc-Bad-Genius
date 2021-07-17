@@ -7,17 +7,18 @@
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
 <body>
 <h1>Test Project</h1>
 <h2>What Rewards Do you Want?</h2>
 <h3>Rack them from Least to Most expensive</h3>
-<input placeholder="1st Reward"><input placeholder="1st Rewards Price"><br>
+<input id="rewardName1" placeholder="1st Reward"><input id="rewardPrice1" placeholder="1st Rewards Price"><br>
 <input placeholder="2nd Reward"><br>
 <input placeholder="3rd Reward"><br>
 
 <h2>Level 1</h2>
 <h3>Make it to Your Saving Goal to Unlock Level 2 & Earn Reward 1</h3>
-<h4>Save (Reward 1 Price x 11)</h4>
+<h4 id="levelOneGoal">Save: </h4>
 <h4>Amount saved = x</h4>
 <input placeholder="Add Amount to Saved">
 
@@ -26,5 +27,7 @@
 <h4>Save (Reward 1 Price x 11)</h4>
 <h4>Amount saved = x</h4>
 <input placeholder="Add Amount to Saved">
+
+<script src="script.js"></script>
 </body>
 </html>
